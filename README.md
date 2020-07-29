@@ -16,7 +16,7 @@ Instrument correlation is performed using the Pearson method, requiring at least
 It is observed that the NAV value time series is stationary over the time period present in the dataset, therefore correlation values 
 computed is not spurious.
 
-The insights from the data are stored in firebase realtime database. Cloud functions are deployed, which trigger on updates 
+The insights from the data are stored in [firebase realtime database](https://ngt-cloud-func.firebaseio.com/) . Cloud functions are deployed, which trigger on updates 
 to the data so as to aggregate data quality check insights in the database. 
  
 ### Code Components
