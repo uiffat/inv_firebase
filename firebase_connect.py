@@ -5,11 +5,11 @@ from firebase_admin import db
 
 def connect2firebase():
     # Fetch the service account key JSON file contents
-    cred = credentials.Certificate('data/ngt-inv-corr-firebase-adminsdk-wj3bk-17ef3b0517.json')
+    cred = credentials.Certificate('data/ngt-cloud-func-firebase-adminsdk-r5zau-44ca6524b0.json')
 
     # Initialize the app with a service account, granting admin privileges
     firebase_admin.initialize_app(cred, {
-        'databaseURL': 'https://ngt-inv-corr.firebaseio.com/'
+        'databaseURL': 'https://ngt-cloud-func.firebaseio.com/'
     })
     return True
 

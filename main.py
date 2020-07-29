@@ -21,7 +21,7 @@ if __name__ == "__main __":
     connect2firebase()
     writeDF('instrument_correlations', instrument_correlation)
 
-    dq_ref = db.reference('ngt-inv-corr/data_quality_checks')
+    dq_ref = db.reference('ngt-cloud-func/data_quality_checks')
     for k in list(num_data_points.keys()):
         ins_ref = dq_ref.child('{i}_{j}'.format(i=k[0], j=k[1]))
         ins_ref.set({
