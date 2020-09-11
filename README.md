@@ -1,4 +1,4 @@
-# NGT Investment Fund Data Analysis
+# Data Quality Assessment using Cloud functions in Firebase
 
 This project analyses an investment fund dataset, comprising of several subfunds and share classes, called instruments.
 The dataset is a panel data, with several time series for each instrument, over a common time period.
